@@ -81,6 +81,35 @@ class ChainTable():
 		self.length -=1
 		
 	def insert(self,index,dataOrNode):
+		'''
+		'''
+		
+	def update(self,index,data):
+		pass
+	
+	def getItem(self,index):
+		pass
+		
+	def getIndex(self,data):
+		pass
+		
+	def clear(self):
+		pass
+		
+	#魔法方法：
+	def __repr__(self):
+		pass
+		
+	def __getitem__(self):
+		pass
+		
+	def __setitem__(self):
+		pass
+		
+	def __len__(self):
+		return self.length
+		
+		
 				
 			
 		
